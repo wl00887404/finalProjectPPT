@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Play);
+* {
+  font-family: "微軟正黑體"; }
+
+body > canvas {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.title {
+  margin-bottom: 1em !important; }
+  .title h1 {
+    font-weight: 400;
+    margin: 0;
+    line-height: 1em;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.3rem; }
+  .title h2 {
+    font-size: 1.25em;
+    font-weight: 400;
+    position: relative;
+    left: 0.21em;
+    margin: 0;
+    letter-spacing: 0.42em; }
+    .title h2 span {
+      position: relative;
+      top: 0.1em; }
+
+.reveal .slides {
+  background: radial-gradient(white 0%, white 50%, transparent 100%); }
+
+.member {
+  display: flex !important;
+  list-style-type: none !important;
+  justify-content: space-around;
+  margin: 0 !important; }
+
+.hightLight {
+  color: #2a76dd; }
+
+.heart {
+  display: inline-block;
+  animation: heart 0.5s infinite; }
+
+.animation .animationTest {
+  animation: example 2s linear; }
+
+@keyframes example {
+  from {
+    background-color: red; }
+  to {
+    background-color: yellow; } }
+
+@keyframes heart {
+  0% {
+    transform: scale(1); }
+  25% {
+    transform: scale(1.5); }
+  50% {
+    transform: scale(1); } }

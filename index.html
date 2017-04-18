@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta property="og:description" content="嚴偉安、楊楚玄、何振志　指導教授：許巍嚴" />
+    <meta property="og:title" content="疲勞偵測與眼動應用" />
+    <meta property="og:url" content="http://140.123.175.101:3000/" />
+    <meta property="og:image" content="http://140.123.175.101:3000/image/bg.png" />
+    <meta itemprop="name" content="疲勞偵測與眼動應用">
+    <meta itemprop="image" content="http://140.123.175.101:3000/image/bg.png">
+    <meta itemprop="description" content="嚴偉安、楊楚玄、何振志　指導教授：許巍嚴">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>疲勞偵測與眼動應用</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body id="particles-js">
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <!-- data-background-image="image/bgEye0.4.png" data-background-size="35% auto" -->
+                <div class="title">
+                    <h1>疲勞偵測與眼動應用</h1>
+                    <h2><span>創　　新</span>|<span>影像分析</span>|<span>智慧生活</span></h2>
+                </div>
+                <div style="position: absolute;width: 100%;color: #2a76dd;">
+                    <ul class="member">
+                        <li>嚴偉安</li>
+                        <li>楊楚玄</li>
+                        <li>何振志</li>
+                        <li style="display: none">賴柔嘉</li>
+                    </ul>
+                    <p style="position: relative;left: 8.2em;"><small style="vertical-align:baseline;margin-right: 0.6em">指導教授</small>許巍嚴</p>
+                </div>
+            </section>
+            <section>
+                <p style="line-height: 1.8;text-align: left">
+                    3C產品已成為現代人生活的必需品
+                    <br/>但也漸漸衍生出不少問題
+                    <br/>如<span class='hightLight'>平均近視年齡逐漸下降</span>、<span class='hightLight'>眼部疾病問題數量攀升</span>
+                    <br/>造成問題的主要原因不外乎是
+                    <br/>用眼過度、光線過於強烈、使用時間過長等
+                    <br/>然而儘管<span class='hightLight'>原因廣為人知、卻難以避免</span>
+                    <br/>人手一機、放眼皆是四眼田雞
+                    <br/>早已成為現況
+                </p>
+            </section>
+            <section>
+                <h2>需要一個<span class='hightLight'>行動助理</span>，能...</h2>
+            </section>
+            <section>
+                <h2><span class='hightLight'>偵測使用者的疲勞程度</span></h2>
+                <p style="line-height: 1.8">
+                    <!-- style="width: 16em;text-align: left;margin-right: auto;margin-left: auto;" -->
+                    在不打擾使用者的狀況
+                    <br/>及時監控使用者的疲勞程度
+                    <br/>一旦用眼過度便彈出警告
+                    <br/>使用者可以依從指示做出應對
+                </p>
+            </section>
+            <section>
+                <h2><span class='hightLight'>提供清晰易懂的用眼歷程</span></h2>
+                <p style="line-height: 1.8">
+                    <!-- style="width: 16em;text-align: left;margin-right: auto;margin-left: auto;" -->
+                    分析用眼狀況，並提供個人化結果
+                    <br/>了解最近可能產生眼疾和疲勞風險時段
+                    <br/>大大降低了眼部發生病變的機率
+                    <br/>讓使用者在高風險的電子生活中能
+                    <br/>夠安心的與健康找到一個平衡
+                </p>
+            </section>
+            <section>
+                <p style="line-height: 1.8">但目前對眼睛防護軟體幾乎僅限於濾藍光
+                    <br/>雖然能降低較高能量光線
+                    <br/>但往往忽略了<span class='hightLight'>過度用眼</span>的根本原因。
+                </p>
+            </section>
+            <section>
+                <h2>總和上述情況...</h2>
+            </section>
+            <section>
+                <h2><span class='hightLight'>愛眼</span>是勢在必行的幫手</h2>
+                <h3 style="font-size:0.8em;letter-spacing: 0.68em;left:0.34em;position: relative;">讓使用者安心暢遊Ｅ化生活</h3>
+            </section>
+            <section>
+                <section>
+                    <h2 class='hightLight'>軟體架構</h2>
+                </section>
+                <section>
+                    <p style="line-height: 1.8">
+                        現在手機皆具備前鏡頭
+                        <br/><span class='hightLight'>愛眼</span>將透過前鏡頭
+                        <br/>藉由<span class='hightLight'>影像分析、眼動追蹤</span>
+                        <br/>來判定用眼的時間及疲勞程度
+                    </p>
+                </section>
+                <section>
+                    <p style="line-height: 1.8">
+                        主要使用語言為<span class='hightLight'>Python、Java、Javascript</span>
+                        <br/>影像分析將搭配<span class='hightLight'>OpenCV</span>
+                        <br/>並搭配<span class='hightLight'>Mysql</span>為資料庫
+                    </p>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h2 class='hightLight'>主要目標</h2>
+                </section>
+                <section>
+                    <h2>
+		                <span class='hightLight'>
+		                	即時發現眼部疲勞
+		                </span>
+	                </h2>
+                    <p style="line-height: 1.8;position: relative;">
+                        造成眼部傷害的問題
+                        <br/>往往由於使用者在感到眼部不適之前
+                        <br/>眼部早 已超出負荷一段時間
+                        <br/>即使生理上已十分疲勞，大腦卻難以察覺
+                    </p>
+                </section>
+                <section>
+                    <h2>
+		                <span class='hightLight'>
+		                	在問題發生前先行分析、處理
+		                </span>
+	                </h2>
+                    <p style="line-height: 1.8;position: relative;">
+                        即使不常感受到眼部疲勞
+                        <br/>但長期累積的影響可是不容忽視的
+                        <br/>依據使用者習慣，分析每天用眼過度和疲勞時段
+                        <br/>藉以找出疲勞根源，再針對可能發生的問題
+                        <br/>提供適合的方案，解決潛藏問題。
+                    </p>
+                </section>
+                <section>
+                    <h2>
+		                <span class='hightLight'>
+		                	讓使用者安心暢遊Ｅ化生活
+		                </span>
+	                </h2>
+                    <p style="line-height: 1.8;position: relative;">
+                        現代的生活中，常有必須注視螢幕的狀況
+                        <br/>像是加班時間，儘管疲勞仍須盡快完成任務
+                        <br/>然而一味地降低螢幕亮度未必是最好的做法
+                        <br/>透過時間、環境、 光線強度，調整螢幕的設定
+                        <br/>減少對眼睛造成損害，獲得舒適、良好的瀏覽環境
+                        <br/>使用者不得不盯著螢幕的時候， 也能安心進行工作
+                        <br/>將螢幕對眼部的傷害降到最低並增加工作效率
+                    </p>
+                </section>
+                <section>
+                    <h2>
+		                <span class='hightLight'>
+		                	以眼動發展出各種應用
+		                </span>
+	                </h2>
+                    <p style="line-height: 1.8;position: relative;">
+                        有了以上的功能，即可依此做其他延伸應用
+                        <br/>利用眼動的數據分析
+                        <br/>可以觀察出使用者的專注程度
+                        <br/>若應用在課堂上，使教授可以深入教學中的不同部分
+                        <br/>學生專注度的差異，以及學生是否理解教學內容
+                        <br/>藉此調整教學的速度或方法以及成效
+                        <br/>
+                    </p>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h2><span class='hightLight'>工作分配</span></h2></section>
+                <section>
+                    <table>
+                        <tr>
+                            <th style="letter-spacing: 0.25em">使用者介面</th>
+                            <td>何振志</td>
+                        </tr>
+                        <tr>
+                            <th>影像分析開發</th>
+                            <td>嚴偉安、楊楚玄</td>
+                        </tr>
+                        <tr>
+                            <th style="letter-spacing: 0.25em">測試與整合</th>
+                            <td>何振志、嚴偉安、楊楚玄</td>
+                        </tr>
+                    </table>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h2><span class='hightLight'>時程評估</span></h2></section>
+                <section>
+                    <table style="font-size: 1.5rem">
+                        <tr>
+                            <th align="center">編號</th>
+                            <th align="center">進度</th>
+                            <th align="center">開始日期</th>
+                            <th align="center">所需天數</th>
+                            <th align="center">結束日期</th>
+                        </tr>
+                        <tr>
+                            <td align="center">1</td>
+                            <td>臉部影像分析</td>
+                            <td align="center">2016/12/01</td>
+                            <td align="center">30</td>
+                            <td align="center">2016/12/31</td>
+                        </tr>
+                        <tr>
+                            <td align="center">2</td>
+                            <td>眼部影像分析</td>
+                            <td align="center">2017/1/1</td>
+                            <td align="center">14</td>
+                            <td align="center">2017/1/15</td>
+                        </tr>
+                        <tr>
+                            <td align="center">3</td>
+                            <td>搜尋眼睛疲勞程度及眼動相關資料</td>
+                            <td align="center">2017/1/16</td>
+                            <td align="center">16</td>
+                            <td align="center">2017/2/1</td>
+                        </tr>
+                        <tr>
+                            <td align="center">4</td>
+                            <td>分析資料設計疲勞計算演算法</td>
+                            <td align="center">2017/2/1</td>
+                            <td align="center">42</td>
+                            <td align="center">2017/3/15</td>
+                        </tr>
+                        <tr>
+                            <td align="center">5</td>
+                            <td>電腦端 UI 設計</td>
+                            <td align="center">2017/3/1</td>
+                            <td align="center">30</td>
+                            <td align="center">2017/3/31</td>
+                        </tr>
+                        <tr>
+                            <td align="center">6</td>
+                            <td>電腦端後端設計</td>
+                            <td align="center">2017/3/16</td>
+                            <td align="center">15</td>
+                            <td align="center">2017/3/31</td>
+                        </tr>
+                        <tr>
+                            <td align="center">7</td>
+                            <td>電腦端整合</td>
+                            <td align="center">2017/4/1</td>
+                            <td align="center">6</td>
+                            <td align="center">2017/4/7</td>
+                        </tr>
+                        <tr>
+                            <td align="center">8</td>
+                            <td>電腦端程式測試</td>
+                            <td align="center">2017/4/7</td>
+                            <td align="center">3</td>
+                            <td align="center">2016/12/31</td>
+                        </tr>
+                        <tr>
+                            <td align="center">9</td>
+                            <td>手機端 UI 設計</td>
+                            <td align="center">2017/4/1</td>
+                            <td align="center">19</td>
+                            <td align="center">2017/4/20</td>
+                        </tr>
+                        <tr>
+                            <td align="center">10</td>
+                            <td>手機端後端測試</td>
+                            <td align="center">2017/4/10</td>
+                            <td align="center">10</td>
+                            <td align="center">2017/4/20</td>
+                        </tr>
+                        <tr>
+                            <td align="center">11</td>
+                            <td>手機端整合</td>
+                            <td align="center">2017/4/20</td>
+                            <td align="center">10</td>
+                            <td align="center">2017/4/30</td>
+                        </tr>
+                        <tr>
+                            <td align="center">12</td>
+                            <td>手機程式測試 </td>
+                            <td align="center">2017/5/1</td>
+                            <td align="center">4</td>
+                            <td align="center">2017/5/5</td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <img src="image/kk.png">
+                </section>
+            </section>
+            <section>
+                <h1 style="font-family: 'Play'"><span style="margin-right: 0.35em;">Demo Time</span><span class="heart" style="color: red">♥</span></h1>
+            </section>
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="js/particles.js-master/particles.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

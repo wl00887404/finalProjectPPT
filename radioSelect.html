@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="./radioSelect.js"></script>
+    <style type="text/css">
+    #form div {
+        margin-bottom: 1em;
+    }
+    </style>
+</head>
+
+<body>
+    <form id="form">
+        <div>
+            1.
+            <select></select>
+        </div>
+        <div>
+            2.
+            <select></select>
+        </div>
+        <div>
+            3.
+            <select></select>
+        </div>
+        <div>
+            4.
+            <select></select>
+        </div>
+    </form>
+</body>
+<script type="text/javascript">
+let course = [{
+    name: "A",
+    value: "1"
+}, {
+    name: "B",
+    value: "2"
+}, {
+    name: "C",
+    value: "3"
+}, {
+    name: "D",
+    value: "4"
+}]
+
+let t = new radioSelect(form, course)
+</script>
+
+</html>
