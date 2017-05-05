@@ -1,5 +1,5 @@
 Reveal.initialize({
-    history: true,
+    //history: true,
     // More info https://github.com/hakimel/reveal.js#dependencies 
     transition: 'convex', // none/fade/slide/convex/concave/zoom
     //autoSlide: 8700,
