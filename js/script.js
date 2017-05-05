@@ -2,7 +2,7 @@ Reveal.initialize({
 	history: true,
 	// More info https://github.com/hakimel/reveal.js#dependencies 
 	transition: 'convex', // none/fade/slide/convex/concave/zoom
-	autoSlide: 8700,
+	//autoSlide: 8700,
     dependencies: [
 	    { src: 'plugin/markdown/marked.js' },
     	{ src: 'plugin/markdown/markdown.js' },
