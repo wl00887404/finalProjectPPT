@@ -39,6 +39,10 @@ body > canvas {
 .hightLight {
   color: #2a76dd; }
 
+.danger {
+  color: red;
+}
+
 .heart {
   display: inline-block;
   animation: heart 0.5s infinite; }
